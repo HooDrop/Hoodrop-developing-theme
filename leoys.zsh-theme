@@ -39,6 +39,11 @@ ys_hg_prompt_info() {
 
 local exit_code="%(?,,C:%{$fg[red]%}%?%{$reset_color%})"
 
+EMOJIS=(🍙 🍘 🍥 🍢 🥮 🍗 🥩 🍖 🥓 🥞 🍳 🧀 🫔  🥗 🌮 🥙 🍬 🍭 🍫 🍿 🍩 🍪 🌰)
+
+
+SEL_EMOJI=${EMOJIS[RANDOM % ${#EMOJIS[@]} - 1 ]}
+
 # Prompt format:
 #
 # PRIVILEGES USER @ MACHINE in DIRECTORY on git:BRANCH STATE [TIME] C:LAST_EXIT_CODE
@@ -59,4 +64,4 @@ ${hg_info}\
 ${git_info}\
  \
 %{$fg[white]%}[%D %*] $exit_code
-%{$terminfo[bold]$fg[magenta]%}🤔 %{$reset_color%}"
+%{$terminfo[bold]$fg[magenta]%}$SEL_EMOJI %{$reset_color%}"
