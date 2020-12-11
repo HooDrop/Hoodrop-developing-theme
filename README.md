@@ -1,3 +1,3 @@
-# Hoodrop-developing-theme
+# Hoodrop-developing-themes
 
 Vim and terminal themes
