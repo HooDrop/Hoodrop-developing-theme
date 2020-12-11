@@ -70,7 +70,7 @@ hi Question ctermfg=79 ctermbg=NONE cterm=NONE
 hi Repeat ctermfg=175 cterm=BOLD
 hi Search ctermfg=233 ctermbg=188 cterm=NONE
 hi SignColumn ctermbg=233 cterm=NONE
-hi Special ctermfg=5 cterm=BOLD
+hi Special ctermfg=5 cterm=NONE
 hi SpecialChar ctermfg=60 cterm=NONE
 hi SpecialComment ctermfg=65 cterm=bold
 hi SpecialKey ctermfg=65 cterm=none
