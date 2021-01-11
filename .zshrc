@@ -13,6 +13,20 @@ export ZSH="/Users/luisfenny/.oh-my-zsh"
 ZSH_THEME="leoys"
 
 eval $(thefuck --alias FUCK)
+
+alias de="cd Desktop/"
+alias t="tmux"
+alias q="bye"
+alias py="python3"
+alias ppp="cd Works/Python/"
+alias meak="make"
+alias meka="make"
+alias mm="make"
+alias tk="tmux kill-session -t"
+alias t1="tmux split-window -h"
+alias t2="tmux split-window"
+
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -40,11 +54,6 @@ eval $(thefuck --alias FUCK)
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
-
-alias de="cd Desktop/"
-alias t="tmux"
-alias b="bye"
-alias py="python3"
 
 # Uncomment the following line to disable auto-setting terminal title.
 # DISABLE_AUTO_TITLE="true"
