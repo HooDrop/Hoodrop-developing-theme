@@ -58,7 +58,7 @@ hi MatchParen ctermbg=24 cterm=NONE
 hi ModeMsg ctermfg=102 cterm=NONE
 hi MoreMsg ctermfg=188 cterm=NONE
 hi NonText ctermfg=102 ctermbg=NONE cterm=NONE
-hi Normal ctermfg=white ctermbg=NONE cterm=NONE
+hi Normal ctermfg=15 ctermbg=NONE cterm=NONE
 hi Number ctermfg=122 cterm=NONE
 hi Operator ctermfg=74 cterm=NONE
 hi Pmenu ctermfg=188 ctermbg=59 cterm=NONE
@@ -68,8 +68,8 @@ hi PmenuThumb ctermbg=32 cterm=NONE
 hi PreProc ctermfg=74 cterm=NONE
 hi Question ctermfg=79 ctermbg=NONE cterm=NONE
 hi Repeat ctermfg=175 cterm=BOLD
-hi Search ctermfg=233 ctermbg=188 cterm=NONE
-hi SignColumn ctermbg=233 cterm=NONE
+hi Search ctermfg=200 ctermbg=188 cterm=NONE
+hi SignColumn ctermbg=200 cterm=NONE
 hi Special ctermfg=5 cterm=NONE
 hi SpecialChar ctermfg=60 cterm=NONE
 hi SpecialComment ctermfg=65 cterm=bold
@@ -85,14 +85,14 @@ hi StorageClass ctermfg=74 cterm=NONE
 hi String ctermfg=215 cterm=NONE
 hi Structure ctermfg=74 cterm=NONE
 hi TabLine ctermfg=188 ctermbg=59 cterm=bold
-hi TabLineFill ctermfg=188 ctermbg=233 cterm=bold
+hi TabLineFill ctermfg=188 ctermbg=200 cterm=bold
 hi Tag ctermfg=65 cterm=NONE
 hi Title ctermfg=175 cterm=bold
 hi Todo ctermfg=188 ctermbg=65 cterm=bold
 hi Type ctermfg=43 cterm=NONE
 hi Typedef ctermfg=79 cterm=NONE
 hi Underlined cterm=underline
-hi VertSplit ctermfg=233 ctermbg=59 cterm=NONE
+hi VertSplit ctermfg=200 ctermbg=59 cterm=NONE
 hi Visual ctermbg=233 cterm=reverse
 hi VisualNOS ctermfg=NONE ctermbg=24 cterm=NONE
 hi WarningMsg ctermfg=1 cterm=NONE
