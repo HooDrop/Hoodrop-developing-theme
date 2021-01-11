@@ -48,7 +48,7 @@ hi Folded ctermfg=59 ctermbg=NONE cterm=NONE
 hi Function ctermfg=14 cterm=NONE
 hi htmlTagName ctermfg=14 cterm=NONE
 hi Identifier ctermfg=183 cterm=NONE
-hi Ignore ctermfg=59 cterm=BOLD
+hi Ignore ctermfg=7 cterm=NONE
 hi IncSearch ctermfg=NONE ctermbg=24 cterm=NONE
 hi Keyword ctermfg=139 cterm=NONE
 hi Label ctermfg=175 cterm=NONE
@@ -69,7 +69,7 @@ hi PreProc ctermfg=74 cterm=NONE
 hi Question ctermfg=79 ctermbg=NONE cterm=NONE
 hi Repeat ctermfg=175 cterm=BOLD
 hi Search ctermfg=200 ctermbg=188 cterm=NONE
-hi SignColumn ctermbg=200 cterm=NONE
+hi SignColumn ctermbg=233 cterm=NONE
 hi Special ctermfg=5 cterm=NONE
 hi SpecialChar ctermfg=60 cterm=NONE
 hi SpecialComment ctermfg=65 cterm=bold
