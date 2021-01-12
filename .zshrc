@@ -32,9 +32,10 @@ ZSH_HIGHLIGHT_STYLES[alias]="fg=122,bold"
 ZSH_HIGHLIGHT_STYLES[builtin]="fg=122,bold"
 ZSH_HIGHLIGHT_STYLES[function]="fg=122,bold"
 ZSH_HIGHLIGHT_STYLES[command]="fg=122,bold"
-ZSH_HIGHLIGHT_STYLES[unknown-token]="fg=219,bold"
+ZSH_HIGHLIGHT_STYLES[unknown-token]="fg=225,bold"
 ZSH_HIGHLIGHT_STYLES[path]="fg=white,underline"
-SPACESHIP_CHAR_SYMBOL="🍥 "
+SPACESHIP_CHAR_COLOR_SUCCESS="15"
+SPACESHIP_CHAR_COLOR_FAILURE="225"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
