@@ -8,9 +8,9 @@ export ZSH="/Users/luisfenny/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-#ZSH_THEME="spaceship"
+ZSH_THEME="spaceship"
 #ZSH_THEME="ys"
-ZSH_THEME="leoys"
+#ZSH_THEME="leoys"
 
 eval $(thefuck --alias FUCK)
 
@@ -26,6 +26,13 @@ alias tk="tmux kill-session -t"
 alias t1="tmux split-window -h"
 alias t2="tmux split-window"
 
+ZSH_HIGHLIGHT_STYLES[alias]="fg=122,bold"
+ZSH_HIGHLIGHT_STYLES[builtin]="fg=122,bold"
+ZSH_HIGHLIGHT_STYLES[function]="fg=122,bold"
+ZSH_HIGHLIGHT_STYLES[command]="fg=122,bold"
+ZSH_HIGHLIGHT_STYLES[unknown-token]="fg=219,bold"
+ZSH_HIGHLIGHT_STYLES[path]="fg=white,underline"
+SPACESHIP_CHAR_SYMBOL="🍥 "
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
