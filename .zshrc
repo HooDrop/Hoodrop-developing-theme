@@ -26,6 +26,8 @@ alias tk="tmux kill-session -t"
 alias t1="tmux split-window -h"
 alias t2="tmux split-window"
 
+typeset -A ZSH_HIGHLIGHT_STYLES
+
 ZSH_HIGHLIGHT_STYLES[alias]="fg=122,bold"
 ZSH_HIGHLIGHT_STYLES[builtin]="fg=122,bold"
 ZSH_HIGHLIGHT_STYLES[function]="fg=122,bold"
