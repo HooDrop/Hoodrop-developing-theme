@@ -82,7 +82,7 @@ if has("spell")
 endif
 hi Statement ctermfg=74 cterm=NONE
 hi StorageClass ctermfg=74 cterm=NONE
-hi String ctermfg=215 cterm=NONE
+hi String ctermfg=11 cterm=NONE
 hi Structure ctermfg=74 cterm=NONE
 hi TabLine ctermfg=188 ctermbg=59 cterm=bold
 hi TabLineFill ctermfg=188 ctermbg=200 cterm=bold
