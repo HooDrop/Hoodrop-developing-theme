@@ -12,3 +12,11 @@ set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 inoremap ( ()<ESC>i
 inoremap [ []<ESC>i
 inoremap { {}<ESC>i
+
+call plug#begin()
+Plug 'Yggdroot/indentLine'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+call plug#end()
+
+let g:airline_theme='cool'
