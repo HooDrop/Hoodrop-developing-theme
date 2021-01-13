@@ -3,6 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/luisfenny/.oh-my-zsh"
+export PATH="$(brew --prefix bison)/bin:$PATH"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -13,6 +14,7 @@ ZSH_THEME="spaceship"
 #ZSH_THEME="leoys"
 
 eval $(thefuck --alias FUCK)
+eval "$(pyenv init -)"
 
 alias de="cd Desktop/"
 alias t="tmux"
