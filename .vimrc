@@ -1,6 +1,5 @@
 set nu
 colorscheme hoodrop
-syntax on
 se t_Co=256
 set hlsearch
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
@@ -12,9 +11,10 @@ inoremap [ []<ESC>i
 inoremap { {}<ESC>i
 autocmd VimLeave * let &t_me="\<Esc>]50;CursorShape=2\x7"
 
-call plug#begin()
+call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'Yggdroot/indentLine'
 call plug#end()
 
 let g:airline_theme='cool'
