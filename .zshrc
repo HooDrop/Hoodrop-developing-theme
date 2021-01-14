@@ -13,14 +13,15 @@ ZSH_THEME="spaceship"
 #ZSH_THEME="ys"
 #ZSH_THEME="leoys"
 
+
 eval $(thefuck --alias FUCK)
 eval "$(pyenv init -)"
 
-alias de="cd Desktop/"
+alias de="cd ~/Desktop/"
 alias t="tmux"
 alias q="bye"
 alias py="python3"
-alias ppp="cd Works/Python/"
+alias ppp="cd ~/Works/Python/"
 alias meak="make"
 alias meka="make"
 alias mm="make"
@@ -38,6 +39,7 @@ ZSH_HIGHLIGHT_STYLES[unknown-token]="fg=225,bold"
 ZSH_HIGHLIGHT_STYLES[path]="fg=white,underline"
 SPACESHIP_CHAR_COLOR_SUCCESS="15"
 SPACESHIP_CHAR_COLOR_FAILURE="225"
+SPACESHIP_PROMPT_SEPARATE_LINE=false
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
