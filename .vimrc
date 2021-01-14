@@ -13,6 +13,7 @@ set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 inoremap ( ()<ESC>i
 inoremap [ []<ESC>i
 inoremap { {}<ESC>i
+autocmd VimLeave * let &t_me="\<Esc>]50;CursorShape=2\x7"
 
 call plug#begin()
 Plug 'vim-airline/vim-airline'
