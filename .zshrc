@@ -28,6 +28,7 @@ alias mm="make"
 alias tk="tmux kill-session -t"
 alias t1="tmux split-window -h"
 alias t2="tmux split-window"
+alias ipy="ipython3"
 
 typeset -A ZSH_HIGHLIGHT_STYLES
 
