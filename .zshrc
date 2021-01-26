@@ -40,7 +40,7 @@ ZSH_HIGHLIGHT_STYLES[command]="fg=122"
 ZSH_HIGHLIGHT_STYLES[unknown-token]="fg=225"
 ZSH_HIGHLIGHT_STYLES[path]="fg=white,underline"
 SPACESHIP_CHAR_COLOR_SUCCESS="15"
-SPACESHIP_CHAR_COLOR_FAILURE="225"
+SPACESHIP_CHAR_COLOR_FAILURE="183"
 SPACESHIP_PROMPT_SEPARATE_LINE=false
 
 # Set list of themes to pick from when loading at random
@@ -135,4 +135,3 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 eval $(thefuck --alias)
-
