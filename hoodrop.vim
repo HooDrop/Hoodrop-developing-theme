@@ -41,7 +41,7 @@ hi DiffText ctermbg=188 cterm=NONE
 hi Directory ctermfg=74 cterm=NONE
 hi Error ctermfg=167 ctermbg=NONE cterm=NONE
 hi ErrorMsg ctermfg=167 ctermbg=NONE cterm=NONE
-hi Exception ctermfg=175 cterm=NONE
+hi Exception ctermfg=175 cterm=BOLD
 hi Float ctermfg=151 cterm=NONE
 hi FoldColumn ctermfg=59 cterm=NONE
 hi Folded ctermfg=59 ctermbg=NONE cterm=NONE
