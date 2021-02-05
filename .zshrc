@@ -104,8 +104,11 @@ SPACESHIP_PROMPT_SEPARATE_LINE=false
 plugins=(
   git
   zsh-syntax-highlighting
+  zsh-autosuggestions
+  zsh-completions
 )
 
+autoload -U compinit && compinit
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
