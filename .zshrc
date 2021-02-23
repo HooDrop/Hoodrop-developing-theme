@@ -18,6 +18,7 @@ eval "$(pyenv init -)"
 eval $(thefuck --alias FUCK)
 
 alias de="cd ~/Desktop/"
+alias h="history"
 alias t="tmux"
 alias q="exit"
 alias py="python3"
@@ -30,6 +31,7 @@ alias t1="tmux split-window -h"
 alias t2="tmux split-window"
 alias ipy="ipython3"
 alias ipyc="ipynb-py-convert"
+alias dcu="ssh wuz6@student.computing.dcu.ie"
 
 typeset -A ZSH_HIGHLIGHT_STYLES
 
