@@ -80,7 +80,7 @@ if has("spell")
 	hi SpellLocal ctermfg=167 ctermbg=NONE cterm=NONE
 	hi SpellRare ctermfg=167 ctermbg=NONE cterm=NONE
 endif
-hi Statement ctermfg=44 cterm=bold
+hi Statement ctermfg=37 cterm=bold
 hi StorageClass ctermfg=74 cterm=NONE
 hi String ctermfg=11 cterm=NONE
 hi Structure ctermfg=74 cterm=NONE
